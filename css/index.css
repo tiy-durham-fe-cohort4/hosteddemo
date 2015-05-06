@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.main-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.grid-container {
+  text-align: justify;
+  background: #6599ef;
+  color: white;
+}
+
+.grid-container:after {
+  content: ' ';
+  display: inline-block;
+  width: 100%;
+}
+
+.grid-item {
+  display: inline-block;
+  width: 31%;
+  padding: 1em;
+  box-sizing: border-box;
+  vertical-align: top;
+}
